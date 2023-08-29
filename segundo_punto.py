@@ -9,7 +9,7 @@ def cifrar_cesar(texto, clave): #función que se encarga de recorrer los caracte
             luego se calcula el resultado módulo 26 para asegurarse de que el desplazamiento 
             se mantenga dentro de las letras del alfabeto"""
         else:
-            cifrado += caracter
+            cifrado += caracter #si se agrega un caracter por fuera del alfabeto se agrega al final del cifrado
     return cifrado
 
 def descifrar_cesar(texto_cifrado, clave):
