@@ -22,7 +22,7 @@ def evaluar_expresion(expresion, x0, y0, h, n): #definimos la función que se en
     else:
         return "Expresión inválida"
 
-print(f"{ 'Este código resuelve EDOs por el método de euler'.center(50) }")
+print(f"{ 'Este código resuelve EDOs por el método de euler'.center(70) }")
 
 x0 = float(input("Ingresa el valor inicial de x (x0): "))
 y0 = float(input("Ingresa el valor inicial de y (y0): "))
