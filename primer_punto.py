@@ -1,3 +1,5 @@
+#Alberth Eliud Londoño Rodríguez
+
 def evaluar_expresion(expresion, x0, y0, h, n): #definimos la función que se encargará de seleccionar los caracteres permitidos y ejecutar la ecuación diferencial
     variables_permitidas = {'x', 'y'}
     operadores_permitidos = {'+', '-', '*', '/'}
